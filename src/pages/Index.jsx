@@ -43,13 +43,15 @@ const Index = () => {
               Sąrašas
             </Button>
           </Link>
-          <VStack spacing={4}>
-            <Text fontSize="md">Prenumeruokite mūsų kanalą:</Text>
-            <Input placeholder="Įveskite savo el. paštą" size="md" />
-            <Button colorScheme="blue" variant="solid" onClick={handleSubscribe}>
-              Prenumeruoti
-            </Button>
-          </VStack>
+          <Text fontSize="md">Pasirinkite prenumeratos planą:</Text>
+          <Button colorScheme="green" variant="solid" onClick={() => handleSubscribe("week")}>
+            Prenumeruoti savaitei (1,99€)
+          </Button>
+          <Button colorScheme="teal" variant="outline" onClick={() => handleSubscribe("month")}>
+            Prenumeruoti mėnesiui (2,99€)
+          </Button>
+          <Text fontSize="sm">Atsiskaitymas per PayPal arba Google Play</Text>
+          <Text fontSize="sm">PayPal el. paštas: senderlithuania@gmail.com</Text>
         </VStack>
       </Box>
     </ChakraProvider>
