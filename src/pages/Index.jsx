@@ -49,7 +49,6 @@ const Index = () => {
             <Button colorScheme="blue" variant="solid" onClick={handleSubscribe}>
               Prenumeruoti
             </Button>
-            <Text fontSize="sm">Savaitės kaina €2,99, mėnesio kaina €6,99. Atsiskaityti galima per PayPal: senderlithuania@gmail.com arba banku.</Text>
           </VStack>
         </VStack>
       </Box>
