@@ -38,6 +38,11 @@ const Index = () => {
             AI Dirbtinis Intelektas
           </Heading>
           <Text fontSize="xl">Štai sąrašas AI programų, kurios pravers uždirbant:</Text>
+          <Link href="/help-center">
+            <Button colorScheme="blue" size="md">
+              Help Center
+            </Button>
+          </Link>
           <Link href="https://docs.google.com/spreadsheets/d/17q3g-R7k33qPPwSVXbKnN49Z_ThFg8DWpLoC-JQXf8w/edit?usp=drivesdk" isExternal>
             <Button rightIcon={<FaArrowRight />} colorScheme="teal" size="lg">
               Sąrašas
