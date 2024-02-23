@@ -43,7 +43,6 @@ const Index = () => {
               Sąrašas
             </Button>
           </Link>
-          <Text fontSize="md">Pasirinkite prenumeratos planą:</Text>
         </VStack>
       </Box>
     </ChakraProvider>
